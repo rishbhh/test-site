@@ -876,7 +876,7 @@ height: 811px;
     line-height: 155px;
     font-weight: 400;
     letter-spacing: -7px;
-    color: rgba(200, 169, 106,0.1);
+    color:rgb(0 0 0 / 1%);
     z-index: 0;
     font-family: 'Forum', cursive;
     top: -7px;
@@ -885,10 +885,12 @@ height: 811px;
 
 .tf-heading .tf-title{
     line-height: 78px;
-    letter-spacing: -1.5px;
+    letter-spacing: 1.7px;
     font-size: 52px;
     text-transform: uppercase;
     font-weight: 400;
+    color: #050b8b;
+    font-weight: 600;
 }
 
 .tf-title-style2{
@@ -955,9 +957,11 @@ height: 811px;
 /* Iconbox
 -------------------------------------------------------------- */
 .tf-icon-box{
-    background-color: #fff;
+    background-color: #050b8b;
     text-align: center;
-    padding: 40px 15px 28px 15px;
+    padding:72px 15px 68px 15px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 15px #050b8b5e;
     -webkit-transition: all 0.35s ease;
     -moz-transition: all 0.35s ease;
     -ms-transition: all 0.35s ease;
@@ -967,7 +971,7 @@ height: 811px;
 
 .col-box.active .tf-icon-box.tf-iconbox-category,
 .tf-icon-box.tf-iconbox-category:hover{
-    background-color: #050b8b;
+    background-color: #fff;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -977,6 +981,7 @@ height: 811px;
 
 .tf-icon-box .heading{
     margin-bottom: 11px;
+    color: #fff;
 }
 .col-box.active .tf-icon-box.tf-iconbox-category .btn-icon-box a,
 .col-box.active .tf-icon-box.tf-iconbox-category .icon-wrap i,
@@ -984,7 +989,7 @@ height: 811px;
 .tf-icon-box.tf-iconbox-category:hover .icon-wrap i,
 .tf-icon-box.tf-iconbox-category:hover .heading,
 .tf-icon-box.tf-iconbox-category:hover .btn-icon-box a{
-    color: #fff;
+    color: #050b8b;
     -webkit-transition: all 0.35s ease;
     -moz-transition: all 0.35s ease;
     -ms-transition: all 0.35s ease;
@@ -992,14 +997,14 @@ height: 811px;
     transition: all 0.35s ease;
 }
 .tf-icon-box.tf-iconbox-category:hover .icon-wrap img{
-    filter: brightness(52.5);
+    filter: none;
 }
 .col-box.active .icon-wrap img{
-    filter: brightness(52.5);
+    filter: none;
 }
 .tf-icon-box .icon-wrap img{
     width: 50px;
-   
+    filter: brightness(52.5);
 }
 
 .tf-icon-box .btn-icon-box{
@@ -1894,10 +1899,10 @@ height: 811px;
 
 /* wrap-our-chefs */
 .tf-section.wrap-our-chefs{
-    background: url(../img/our-chefs/imgbg-ourchefs.jpg) no-repeat center;
+    background:linear-gradient(45deg, #050b8b, #000358);
     background-size: cover;
     z-index: 0;
-    padding: 153px 0 255px 0;
+    padding: 153px 0 155px 0;
 }
 
 .tf-section.wrap-our-chefs .tf-heading-bg .heading-bg-style{
@@ -2160,9 +2165,11 @@ height: 811px;
     left: 5.2%;
     z-index: 0;
 }
-
+.text-left{
+    text-align: left;
+}
 .wrap-testimonials-slider {
-    padding: 8.3% 5% 5% 17.5%;
+    padding:0.3% 5% 5% 17.5%;
 }
 
 .wrap-testimonials-slider .flaticon-quotation{
@@ -2921,7 +2928,7 @@ height: 811px;
 }
 .content-tab.style2{
     position: absolute;
-    top: 266%;
+    top: 166%;
     width: 100%;
 }
 /* Inner-Page

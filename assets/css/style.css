@@ -1628,7 +1628,11 @@ h6 a {
     height: 95px;
 }
 
-
+.fontd{
+    font-size: 45px;
+    margin-bottom: 19px;
+    font-weight: 600;
+}
 /* Widgets 
 -------------------------------------------------------------- */
 .widget{
