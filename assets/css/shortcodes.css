@@ -202,7 +202,7 @@
 }
 
 .flat-button-style3 .tf-button.color-style1 {
-    background-color: #C19977;
+    background-color: #050b8b;
     color: #fff;
 }
 
@@ -351,8 +351,9 @@
 .slider .slider-item .page-tittle-slider .heading-tittle h1{
     line-height: 155px;
     text-transform: uppercase;
-    letter-spacing: -4.5px;
+    letter-spacing: -3.5px;
     font-weight: 400;
+    text-shadow: 1px 1px 10px #00000073;
 }
 
 .page-title .slider .swiper-button-next,
@@ -547,7 +548,7 @@ height: 811px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     letter-spacing: -0.5px;
-    color: #C19977;
+    color: #050b8b;
     margin-bottom: 21px;
 }
 
@@ -559,7 +560,7 @@ height: 811px;
     content: "";
     position: absolute;
     padding: 1.5px 20px;
-    background-color: #C19977;
+    background-color: #050b8b;
     top: 15px;
     left: 0;
 }
@@ -620,12 +621,14 @@ height: 811px;
 /* Page-tittle Inner
 ------------------------------ */
 .page-title.page-title-inner{
-    margin-top: 95px;
+    margin-top: 0px;
     padding-top: 108px;
     padding-bottom: 117px;
     background: url(../img/page-title/imgbgpagetitleinner.jpg) no-repeat center center;
     background-size: cover;
     z-index: 100;
+    display: flex;
+    align-items: center;
 }
 
 .page-title-inner .overlay-pagetitle{
@@ -652,8 +655,6 @@ height: 811px;
     width: 100%;
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 216%;
 }
 
 .breadcrumbs ul{
@@ -895,7 +896,7 @@ height: 811px;
 }
 
 .tf-title-style3{
-    color: #C19977;
+    color: #050b8b;
 }
 
 .tf-sub-heading{
@@ -1286,7 +1287,7 @@ height: 811px;
 }
 
 .gallery-box-style3 .hover-effect .content-box .content{
-    background-color: #C19977;
+    background-color: #050b8b;
     width: 60.4%;
     left: 8%;
     padding: 15px 15px 30px 15px;
@@ -1360,7 +1361,7 @@ height: 811px;
 
 /* Team-box style2*/
 .team-box-style2.style2 .content .name{
-    color: #C19977;
+    color: #050b8b;
 }
 .team-box-style2 .content .name{
     margin-bottom: 0;
@@ -1517,7 +1518,7 @@ height: 811px;
 }
 
 .content-about-us{
-    padding: 9% 23% 5% 1.5%;
+    padding:0;
 }
 
 .content-about-us p{
@@ -1795,7 +1796,7 @@ height: 811px;
 }
 
 .our-menu-item.our-menu-item-style02 .content-menu-item .heading{
-    color: #C19977;
+    color: #050b8b;
 }
 
 .our-menu-item.our-menu-item-style02 .content-menu-item .sub-heading{
@@ -1849,7 +1850,7 @@ height: 811px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: #c19977;
+    color: #050b8b;
     font-weight: 600;
     left: 41px;
     top: 12px;
@@ -2324,7 +2325,7 @@ height: 811px;
 }
 
 .testimonials-inner-style3.style .image-box .content .name{
-    color: #c19977;
+    color: #050b8b;
 }
 
 .testimonials-inner-style3 .image-box .content .name {
@@ -2523,7 +2524,7 @@ height: 811px;
 
 .post.post2.post3 .content-post .title:hover,
 .post.post2.post3 .content-post .title.active{
-    color: #C19977;
+    color: #050b8b;
 }
 
 .post.post2.post3 .content-post .title{
@@ -2541,7 +2542,7 @@ height: 811px;
 
 .post.post2.post3 .content-post .meta-post .name {
     font-family: 'Open Sans', sans-serif;
-    color: #C19977;
+    color: #050b8b;
     margin-top: -4px;
     margin-left: 10px;
     font-size: 14px;
@@ -2556,7 +2557,7 @@ height: 811px;
     text-align: center;
     width: 55px;
     height: 59px;
-    background-color: #C19977;
+    background-color: #050b8b;
     border-radius: 7px;
     position: absolute;
     overflow: hidden;
@@ -2931,7 +2932,7 @@ height: 811px;
 }
 
 .about-inner-content-box{
-    padding: 12.8% 20% 0 0;
+    padding:0 16% 0 0;
 }
 
 .about-inner-content-box .heading{
@@ -3090,7 +3091,7 @@ height: 811px;
 }
 
 .testimonials-inner-style3.style2 .image-box .content .position {
-    color: #C19977;
+    color: #050b8b;
 }
 
 .carousel-7 .swiper-pagination{
@@ -3099,7 +3100,7 @@ height: 811px;
 }
 .swiper-container-horizontal.carousel-7>.swiper-pagination-bullets .swiper-pagination-bullet-active{
     border: none !important;
-    background-color: #C19977 !important;
+    background-color: #050b8b !important;
 }
 
 .swiper-container-horizontal.carousel-7>.swiper-pagination-bullets .swiper-pagination-bullet{
@@ -3195,7 +3196,7 @@ height: 811px;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    color: #c19977;
+    color: #050b8b;
 }
 
 .our-menu-item-style3 .image img{
@@ -3749,7 +3750,7 @@ height: 811px;
 }
 
 .item-box{
-    width: 33.3333333%;
+    width: 24.3333333%;
     float: left;
     padding: 0 15px;
     margin-bottom: 30px;
