@@ -958,8 +958,9 @@ height: 811px;
 -------------------------------------------------------------- */
 .tf-icon-box{
     background-color: #050b8b;
+   
     text-align: center;
-    padding:72px 15px 68px 15px;
+    padding:142px 15px 148px 15px;
     margin-bottom: 50px;
     box-shadow: 1px 1px 15px #050b8b5e;
     -webkit-transition: all 0.35s ease;
@@ -967,8 +968,19 @@ height: 811px;
     -ms-transition: all 0.35s ease;
     -o-transition: all 0.35s ease;
     transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
 }
-
+/* .tf-icon-box::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    background-color: #000358;
+    top: 0;
+    z-index: 0;
+    height: 100%;
+    left: 0;
+} */
 .col-box.active .tf-icon-box.tf-iconbox-category,
 .tf-icon-box.tf-iconbox-category:hover{
     background-color: #fff;
@@ -982,6 +994,9 @@ height: 811px;
 .tf-icon-box .heading{
     margin-bottom: 11px;
     color: #fff;
+    z-index: 2;
+    font-size: 50px;
+    text-shadow: 1px 1px 10px #000;
 }
 .col-box.active .tf-icon-box.tf-iconbox-category .btn-icon-box a,
 .col-box.active .tf-icon-box.tf-iconbox-category .icon-wrap i,
