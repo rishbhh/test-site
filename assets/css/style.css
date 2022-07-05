@@ -1555,9 +1555,8 @@ h6 a {
     color: #000;
 }
 
-#site-header #site-header-inner .header-contact .address::before{
-    content: "\f095" ;
-     font-family: "Font Awesome 5 Pro";
+#site-header #site-header-inner .header-contact .address i{
+    font-weight: 700;
     color: #050b8b;
     margin-right: 2px;
 }
@@ -1837,7 +1836,7 @@ h6 a {
     transition-delay: 0.4s;
 }
 .tf-section.wrap-about-us{
-    margin-top: 10%;
+    margin-top: 0;
 }
 
 /* Pagination

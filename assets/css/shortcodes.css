@@ -1528,7 +1528,7 @@ height: 811px;
 
 /*section About Us */
 .tf-section.wrap-about-us{
-    padding: 627px 0 130px 0;
+    padding: 97px 0 130px 0;
 }
 
 .wrap-about-us .iconbg_about{
@@ -4238,11 +4238,18 @@ input.star {
 .widget.widget-info .icon{
     padding-top: 9px;
     margin-right: 21px;
+    display: flex;
+    align-items: center;
 }
 
 .widget.widget-info .icon i{
-    font-size: 45px;
+    font-size: 40px;
     color: #050b8b;
+}
+.widget.widget-info img{
+    width: 50px;
+    padding-top: 0 !important;
+    margin-left: 10px;
 }
 
 .widget.widget-info .infor-text .title{
