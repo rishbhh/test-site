@@ -3007,12 +3007,14 @@ height: 811px;
 .about-box-list .heading{
     line-height: 35px;
     margin-bottom: 20px;
+    font-size: 49px;
+    line-height: 1.1;
 }
 
 .about-box-list .list-benefit li{
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 35px;
+    font-size: 26px;
+    line-height: 45px;
     color: #1d1d1d;
     margin-bottom: -1px;
     position: relative;
