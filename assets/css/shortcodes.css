@@ -1445,7 +1445,7 @@ height: 811px;
 /* wrap-category style 01*/
 .tf-section.wrap-category{
     position: relative;
-    padding:153px 0 361px 0 ;
+    padding:153px 0 151px 0g ;
     z-index: 10;
     background: url(../img/banner/imgbgcategory.jpg) no-repeat;
     background-position: center center;
@@ -2965,8 +2965,8 @@ height: 811px;
 .about-inner-content-box .heading{
     line-height: 45px;
     margin-bottom: 19px;
+    font-size: 49px;
 }
-
 .about-inner-content-box .sub-heading-style2{
     margin-bottom: 42px;
 }
@@ -3077,6 +3077,14 @@ height: 811px;
     background-size: cover;
     padding: 100px 0 87px 0;
 }
+.item .hover-effect p{
+    opacity: 0;
+}
+
+.item .hover-effect.active p, .item .hover-effect:hover p {
+    opacity: 0.65;
+}
+
 
 .counter-chefs-about .overlay-inner{
     position: absolute;
@@ -3853,7 +3861,12 @@ height: 811px;
     opacity: 1;
     margin: 0;
 }
-
+.product-actions p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+}
 .product-actions .exchange,
 .product-actions .heart {
     width: 45px;
