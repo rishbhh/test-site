@@ -1234,7 +1234,7 @@ h6 a {
 }
 
 #site-header.site-header-inner-page #site-header-inner #main-nav{
-    left: 28%;
+    left: 35%;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
@@ -1276,7 +1276,7 @@ h6 a {
 }
 #main-nav > ul > li {
     float: left;
-    padding: 0px 44.5px;
+    padding: 0px 28.5px;
     letter-spacing: 1px;
 }
 
