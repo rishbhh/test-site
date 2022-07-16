@@ -2969,6 +2969,7 @@ height: 811px;
 }
 .about-inner-content-box .sub-heading-style2{
     margin-bottom: 42px;
+    
 }
 
 .about-inner-content-box .flat-button-style2 .tf-button{
@@ -3040,7 +3041,7 @@ height: 811px;
     width: 366px;
     position: absolute;
     right: 87px;
-    bottom: 104px;
+ top: 38%;
 }
 
 .about-inner-image-box .box .icon{
@@ -3549,7 +3550,7 @@ height: 811px;
 
 /* .team-box-style2 */
 .tf-section.wrap-our-chefs.style2{
-    padding: 145px 0 100px 0;
+    padding: 0 0 100px 0;
     background: none;
 }
 
@@ -3572,8 +3573,8 @@ height: 811px;
     box-shadow: 0px 10px 60px rgba(200,169,106,0.15);
     position: absolute;
     overflow: hidden;
-    bottom: 30px;
-    margin: 0 30px;
+    bottom: -20px;
+    margin: 0px 16px;
     padding: 31px 20px 16px 20px;
     text-align: center;
     -webkit-transition: all 0.5s ease;
@@ -3600,7 +3601,7 @@ height: 811px;
     line-height: 28px;
     color: #666666;
     margin-top: 7px;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 
 .team-box-style2.style3 .social-style2{
