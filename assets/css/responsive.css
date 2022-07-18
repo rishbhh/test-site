@@ -63,7 +63,12 @@
 }
 @media only screen and (max-width: 1366px) {
     .header-contact{
-        right: 20% !important; 
+        right: 6% !important; 
+    }
+    #main-nav > ul > li {
+        float: left;
+        padding: 0px 20.5px !important;
+        letter-spacing: 1px;
     }
     .slider-style2 .page-tittle-slider .images-slider2{
         padding-top: 15% !important;
